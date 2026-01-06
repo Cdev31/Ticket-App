@@ -12,4 +12,5 @@ public class TicketModel {
     private LocalTime createdHour;
     private LocalDate startDate;
     private LocalDate endDate;
+    private String comments;
 }
