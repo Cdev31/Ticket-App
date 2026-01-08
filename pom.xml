@@ -28,6 +28,19 @@
     </dependencies>
   </dependencyManagement>
 
+   <profiles>
+      <profile>
+        <id>dev</id>
+        <dependencies>
+          <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>3.0.0</version>
+          </dependency>
+        </dependencies>
+      </profile>
+    </profiles>
+    
   <dependencies>
     <dependency>
       <groupId>com.googlecode.lanterna</groupId>
