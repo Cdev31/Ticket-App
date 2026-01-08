@@ -7,7 +7,7 @@ public class ClientModel {
     private String lastname;
     private WorkModel necessaryWork;
 
-    public void ClientModel(String _id, String _firstname, String _lastname, WorkModel _necessaryWork) {
+    public ClientModel(String _id, String _firstname, String _lastname, WorkModel _necessaryWork) {
         Id = _id;
         firstname = _firstname;
         lastname = _lastname;
@@ -28,10 +28,6 @@ public class ClientModel {
 
     public WorkModel getNecessaryWork() {
         return necessaryWork;
-    }
-
-    public void setId(String id) {
-        Id = id;
     }
 
     public void setFirstname(String firstname) {
